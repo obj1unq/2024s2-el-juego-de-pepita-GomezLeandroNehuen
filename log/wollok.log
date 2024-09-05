@@ -1074,3 +1074,8 @@
 {"level":"info","message":"⌛ Validating src/pepita.wlk","timeElapsed":145,"timestamp":"2024-09-03T17:21:58.995Z"}
 {"level":"info","message":"⌛ Building environment","timeElapsed":101,"timestamp":"2024-09-03T17:21:59.251Z"}
 {"level":"info","message":"⌛ Validating src/pepita.wlk","timeElapsed":152,"timestamp":"2024-09-03T17:21:59.405Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///c%3A/Users/Leandro%20Gomez/Desktop/Repositorios/2024s2-el-juego-de-pepita-GomezLeandroNehuen","timestamp":"2024-09-04T20:51:37.670Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":141,"timestamp":"2024-09-04T20:51:57.113Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///c%3A/Users/Leandro%20Gomez/Desktop/Repositorios/2024s2-el-juego-de-pepita-GomezLeandroNehuen","timestamp":"2024-09-04T20:51:57.117Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":102,"timestamp":"2024-09-04T20:52:55.865Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///c%3A/Users/Leandro%20Gomez/Desktop/Repositorios/2024s2-el-juego-de-pepita-GomezLeandroNehuen","timestamp":"2024-09-04T20:52:55.868Z"}

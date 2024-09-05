@@ -1,5 +1,7 @@
 import wollok.game.*
 import pepita.*
+import posiciones.*
+import extras.*
 
 program pepitaGame {
 	game.title("Pepita") 	//Valor por defecto "Wollok Game"
@@ -8,7 +10,25 @@ program pepitaGame {
 	game.cellSize(50) 		//valor por defecto 50
 	//search assets in assets folder, for example, for the background
 	//Valor por defecto game.ground("ground.png")
-	
-	//game.addVisual(pepita)
+	game.boardGround("fondo2.jpg")
+	game.addVisual(pepita) 	//para ver a pepita
+	game.addVisual(nido)
+	game.addVisual(silvestre)
+	//game.addVisualCharacter(pepita)
+	//game.showAttributes(pepita)
+	//keyboard.s().onPressDo(game.say(pepita, "Hola"))
+	keyboard.w().onPressDo({pepita.mover(arriba)})
+	//keyboard.w().onPressDo({pepita.position(up1)}) otra forma son polimorfismo
+	//keyboard.up().onPressDo({pepita.mover(arriba)})
+	keyboard.a().onPressDo({pepita.mover(izquierda)})
+	keyboard.s().onPressDo({pepita.mover(abajo)})
+	keyboard.d().onPressDo({pepita.mover(derecha)})
+	pepita.position(up1)
 	game.start()	
-}
+}	
+
+// object abajo {
+// 		method siguiente(position) {
+//			return position.down(1)
+//		}
+// }
